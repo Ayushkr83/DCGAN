@@ -21,23 +21,23 @@ Uses a combination of upsampling layers (e.g., bilinear or nearest-neighbor) fol
 A standard convolutional neural network (CNN) was used to classify images as real or fake.
 Leaky ReLU activations and dropout layers were incorporated to improve stability.
 </pre>
-<pre>
+<div>
   <h3><b>Training</b></h3>
 Differentiable Augmentations: Applied to the training data to improve generalization and prevent overfitting. More information can be found <a href = "https://github.com/mit-han-lab/data-efficient-gans/blob/master/DiffAugment_pytorch.py">here</a>
 Optimizer: Adam optimizer was used for both the generator and discriminator. with learning rate of 1e-3 for generator and learning rate of 1e-4 for the discriminator.
 Loss Function: original DC GAN loss.
-</pre>
-<pre>
+</div>
+<div>
   <h3><b>Results</b></h3>
   the model was evaluated using Frechet Inception distance(FID). I got a FID score of 29.4831. 
   the fid was calculated by sampling 9000 examples from both original and generated distributions.
-  original image
-  <img src = "original.jpg">
-  generated images
-  <img src = "generated_image_epoch_99_batch_14401.png">
-</pre>
+  <b>original image</b>
+  <img src = "static/original.jpg">
+  <b>generated images</b>
+  <img src = "static/generated_image_epoch_99_batch_14401.png" >
+</div>
 <div>
-  <img src = "output (2).gif">
+  <img src = "static/output (2).gif">
 </div>
   
 </body>
