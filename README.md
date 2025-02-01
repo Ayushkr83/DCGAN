@@ -37,7 +37,7 @@ Loss Function: original DC GAN loss.
   <img src = "generated_image_epoch_99_batch_14401.png">
 </pre>
 <div>
-  <img src = "output(2).giff">
+  <img src = "output (2).gif">
 </div>
   
 </body>
