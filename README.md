@@ -29,12 +29,16 @@ Loss Function: original DC GAN loss.
 </pre>
 <pre>
   <h3><b>Results</b></h3>
+  the model was evaluated using Frechet Inception distance(FID). I got a FID score of 29.4831. 
+  the fid was calculated by sampling 9000 examples from both original and generated distributions.
   original image
   <img src = "original.jpg">
   generated images
-  <img src = "">
+  <img src = "generated_image_epoch_99_batch_14401.png">
 </pre>
-
+<div>
+  <img src = "output(2).giff">
+</div>
   
 </body>
 
