@@ -30,7 +30,7 @@ Loss Function: original DC GAN loss.
 <pre>
   <h3><b>Results</b></h3>
   original image
-  <img src = "">
+  <img src = "original.jpg">
   generated images
   <img src = "">
 </pre>
